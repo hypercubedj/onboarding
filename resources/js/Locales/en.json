@@ -1,0 +1,30 @@
+{
+    "app_name": "Winding platform",
+    "auth": {
+        "register": "Register",
+        "firstname": "Frist name",
+        "lastname": "Last name",
+        "email": "Email",
+        "phone": "Phone number",
+        "password": "Password",
+        "confirm_password": "Confirm Password",
+        "agency": "Continue with Agency?",
+        "already_registered": "Already registered?",
+        "register_button": "Sign Up",
+        "remember": "Remember me",
+        "not_registered": "Not registered?",
+        "forgot_password": "Forgot your password?",
+        "login_button": "Log in",
+        "title": "Forgot Password",
+        "reset_password_description": "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.",
+        "email_label": "Email",
+        "send_reset_link": "Get the link",
+        "email_verification": {
+            "title": "Email Verification",
+            "thank_you": "Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn't receive the email, we will gladly send you another.",
+            "verification_sent": "A new verification link has been sent to the email address you provided during registration.",
+            "resend_button": "Resend again the Email",
+            "logout_button": "Log Out"
+        }
+    }
+}

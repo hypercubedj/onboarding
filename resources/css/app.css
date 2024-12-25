@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Remove default spinner arrows in Webkit-based browsers (Chrome, Safari) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove default spinner arrows in Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Style the input */
+input[type="number"].custom-number-input {
+    appearance: none; /* Removes the default styling */
+    border: 1px solid #ccc; /* Custom border */
+    padding: 8px 12px; /* Custom padding */
+    background-color: transparent; /* Remove background */
+    font-size: 1rem; /* Adjust font size */
+    color: #333; /* Text color */
+    outline: none; /* Remove default outline */
+}
+
+/* Custom focus state */
+input[type="number"].custom-number-input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Blue glow around input */
+}
+
+/* Optional: Placeholder style */
+input[type="number"].custom-number-input::placeholder {
+    color: #aaa; /* Gray placeholder text */
+    font-style: italic; /* Italicize placeholder */
+}
+
+/* Remove default styling for select box */
+
+/* Remove default dropdown arrow (Webkit-based browsers: Chrome, Safari, etc.) */
+select.custom-select {
+    -webkit-appearance: none; /* Remove default appearance in Webkit browsers */
+    -moz-appearance: none; /* Remove default appearance in Firefox */
+    appearance: none; /* For other browsers */
+    border: 1px solid #ccc; /* Custom border */
+    padding: 8px 12px; /* Custom padding */
+    background-color: transparent; /* Remove default background */
+    font-size: 1rem; /* Adjust font size */
+    color: #333; /* Text color */
+    outline: none; /* Remove focus outline */
+    width: 100%; /* Make the select box full width */
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+}
+
+/* Custom arrow for the select dropdown */
+select.custom-select::after {
+    content: "▼"; /* Unicode character for a downwards arrow */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Make sure the arrow doesn't block interactions */
+}
+
+/* Custom focus state */
+select.custom-select:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Blue glow around select */
+}
+
+/* Optional: Option styling */
+select.custom-select option {
+    padding: 8px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Optional: Placeholder styling (for the first option if used as a placeholder) */
+select.custom-select option[disabled] {
+    color: #aaa; /* Placeholder text color */
+    font-style: italic; /* Italicize placeholder */
+}

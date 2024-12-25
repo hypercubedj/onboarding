@@ -1,0 +1,30 @@
+{
+    "app_name": "Plate-forme d'enroulement",
+    "auth": {
+        "register": "S'enregistrer",
+        "firstname": "Nom",
+        "lastname": "Prénom",
+        "email": "E-mail",
+        "phone": "N° de téléphone",
+        "password": "Mot de passe",
+        "confirm_password": "Confirmer le mot de passe",
+        "agency": "Continuez avec Agence ?",
+        "already_registered": "Déjà inscrit?",
+        "register_button": "S'inscrire",
+        "remember": "Se souvenir de moi",
+        "not_registered": "Pas encore inscrit ?",
+        "forgot_password": "Mot de passe oublié ?",
+        "login_button": "Connexion",
+        "title": "Mot de passe oublié",
+        "reset_password_description": "Mot de passe oublié ? Pas de problème. Indiquez simplement votre adresse e-mail et nous vous enverrons un lien de réinitialisation de mot de passe qui vous permettra d'en choisir un nouveau.",
+        "email_label": "E-mail",
+        "send_reset_link": "Obtenir le lien",
+        "email_verification": {
+            "title": "Vérification de l'email",
+            "thank_you": "Merci pour votre inscription ! Avant de commencer, pourriez-vous vérifier votre adresse e-mail en cliquant sur le lien que nous venons de vous envoyer ? Si vous n'avez pas reçu l'email, nous serons heureux de vous en envoyer un autre.",
+            "verification_sent": "Un nouveau lien de vérification a été envoyé à l'adresse e-mail que vous avez fournie lors de votre inscription.",
+            "resend_button": "Renvoyer à nouveau l'email",
+            "logout_button": "Se déconnecter"
+        }
+    }
+}
