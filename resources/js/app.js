@@ -6,7 +6,9 @@ import { resolvePageComponent } from "laravel-vite-plugin/inertia-helpers";
 import { createApp, h } from "vue";
 import { ZiggyVue } from "../../vendor/tightenco/ziggy";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { createI18n } from "vue-i18n";
+import './bootstrap'; // Si vous avez un fichier bootstrap.js pour initialiser vos scripts
 import en from "./Locales/en.json";
 import fr from "./Locales/fr.json";
 
